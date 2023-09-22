@@ -23,6 +23,7 @@ p {
 header {
     background-color: rgb(34, 34, 34);
 }
+
 header .container {
     display: flex;
     align-items: center;
@@ -46,6 +47,7 @@ header a {
 .header__manager-info {
     text-transform: uppercase;
 }
+
 .header__pub-location {
     font-size: 14px;
 }
@@ -87,6 +89,45 @@ header a {
 
 
 
+/* Sales Banner Styles */
+.sales-banner {
+    background-color: rgb(174, 26, 24);
+    color: #fff;
+    padding: 12px 0;
+}
+.sales-banner__text {
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.sales-banner .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+.sales-banner__btn {
+    min-height: 48px;
+    min-width: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+}
+
+/* Grid Area (Main Content) */
+
+.signup-module {
+
+}
+.img-container {
+    width: 200px;
+    height: 400px;
+}
 
 
 /* Media Queries */
@@ -95,14 +136,17 @@ header a {
         align-items: center;
         justify-content: space-around;
     }
+
     .navbar-nav .nav-item {
         height: 50px;
     }
+
     .navbar-nav .nav-item a.nav-link {
         font-family: "Bebas Neue", sans-serif;
         color: #000;
     }
 }
+
 @media screen and (max-width: 991px) {
     header .container {
         justify-content: center;
