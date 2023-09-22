@@ -1,0 +1,93 @@
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
+/* Universal Font */
+* {
+    font-family: "Lato", sans-serif;
+}
+
+/* General Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(34, 34, 34);
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header,
+header a {
+    color: #fff;
+}
+
+/* Header - Left side with logo */
+
+.header__logo-link h1 {
+    font-family: "Lobster", cursive;
+    font-size: 64px;
+}
+
+.header__manager-info {
+    text-transform: uppercase;
+}
+.header__pub-location {
+    font-size: 14px;
+}
+
+/* Header - Right side with contact and info */
+.header__details {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.header__details h2 {
+    text-transform: uppercase;
+}
+
+.header__phone-details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+.header__phone-number {
+    font-size: 20px;
+}
+
+.header__opening-times {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+}
+
+.header__pub-opening-hours-link {
+    color: rgb(225, 116, 17);
+    font-size: 14px;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 991px) {
+    header .container {
+        justify-content: center;
+    }
+}
