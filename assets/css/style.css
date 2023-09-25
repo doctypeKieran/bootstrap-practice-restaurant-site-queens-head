@@ -130,11 +130,30 @@ img.img-fluid {
 .module-heading {
     font-family: "Lobster", cursive;
     font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 /* Menus module */
+.menus-module {
+    background-color: rgb(213, 213, 213);
+}
 .menus-module p {
     font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.menus-module img {
+    height: 350px;
+}
+
+.menus-module__btn {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(85, 85, 85);
+    margin-top: 10px;
+    padding: 12px 30px;
+    border: 1px solid #fff;
 }
 
 
