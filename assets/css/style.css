@@ -9,6 +9,9 @@
 }
 
 /* General Styles */
+body {
+    background-color: rgb(34, 34, 34);
+}
 h1,
 h2,
 h3,
@@ -142,18 +145,31 @@ img.img-fluid {
     margin-bottom: 10px;
 }
 
-.menus-module img {
+.menus-module #naughty-col {
+    height: 556px;
+}
+
+.menus-module .all-menus-img {
     height: 350px;
 }
 
 .menus-module__btn {
+    display: inline-block;
+    max-width: 150px;
     font-family: "Bebas Neue", sans-serif;
     font-size: 18px;
     color: #fff;
     background-color: rgb(85, 85, 85);
     margin-top: 10px;
-    padding: 12px 30px;
+    padding: 12px 24px;
     border: 1px solid #fff;
+    transition: all 0.5s ease;
+}
+
+.menus-module__btn:hover {
+    background-color: rgb(213, 213, 213);
+    color: #000;
+    text-decoration: none;
 }
 
 
